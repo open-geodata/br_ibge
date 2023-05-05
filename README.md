@@ -1,7 +1,5 @@
 # BR > IBGE
 
-<br>
-
 O [**GeoFTP do IBGE**](http://geoftp.ibge.gov.br/) é o servidor do [**Instituto Brasileiro de Geografia e Estatistica (IBGE)**](https://www.infraestruturameioambiente.sp.gov.br) que disponibiliza diversas informações relevantes, majoritariamente em formato _shapefile_, ou seja, em formato editável, sendo que os dados armazenados nesse repositório são derivados destes.
 
 ---
