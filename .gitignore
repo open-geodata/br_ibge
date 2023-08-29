@@ -1,12 +1,9 @@
-
-
-.gitignore
-.gitattributes
+# ssss
 .ipynb_checkpoints
-
 
 # IDEs
 .vscode/
+.vs/
 .idea/
 
 # Byte-compiled / optimized / DLL files

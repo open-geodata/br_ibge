@@ -1,14 +1,29 @@
 """
-_summary_
+Pastas do Projeto
+mar.2023
 """
 
 
-import os
+from pathlib import Path
 
-data_path = os.path.join('..', 'data')
-bruto_path = os.path.join(data_path, 'brutos')
-output_path = os.path.join(data_path, 'output')
 
-os.makedirs(data_path, exist_ok=True)
-os.makedirs(bruto_path, exist_ok=True)
-os.makedirs(output_path, exist_ok=True)
+# Project Path
+project_path = Path(__file__).parents[1]
+
+
+# Data
+data_path = project_path / 'data'
+data_path.mkdir(exist_ok=True)
+
+# Input
+input_path = data_path / 'input'
+input_path.mkdir(exist_ok=True)
+
+
+# Output
+output_path = data_path / 'output'
+output_path.mkdir(exist_ok=True)
+
+
+if __name__ == '__main__':
+    print(project_path)
